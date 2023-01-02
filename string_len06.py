@@ -12,4 +12,4 @@ def main(s1,s2):
     else:
         return s1
 
-print(main('code','exem'))
+print(main('code','python'))
