@@ -8,4 +8,10 @@ def main(s1,s2,s3):
     Returns:
         string
     """
-    return
+    s = len(s1) + len(s2) + len(s3)
+    if s%2 != 0:
+        return [s3]
+    else:
+        return [s1,s2]
+
+print(main('codeschool.uz','example','python'))
