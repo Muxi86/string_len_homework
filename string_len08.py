@@ -13,7 +13,7 @@ def main(s):
         return s[a]
     else:
         a = len(s)//2
-        b = a+1
+        b = a-1
         return s[a] + s[b]
 
-print(main('abcdfe'))
+print(main('cool'))
