@@ -8,4 +8,4 @@ def main(a):
     """
     return len(a)
 
-print(main("control"))
+print(main("python"))
