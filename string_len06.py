@@ -7,9 +7,11 @@ def main(s1,s2):
     Returns:
         shortest string
     """
+    ans = 0
     if len(s1) > len(s2):
-        return s2
-    else:
-        return s1
+        ans = len(s2)
+    if len(s1) < len(s2):
+        ans = len(s1)
+    return s1
 
 print(main('code','python'))
