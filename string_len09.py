@@ -9,4 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    ans = '{} + {} = {}'.format(num1, num2,num1+num2)
+    return ans
+
+print(main(12,5))
